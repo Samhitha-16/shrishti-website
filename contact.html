@@ -5,8 +5,8 @@
     <title>Shrishti-Dance Academy</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -27,22 +27,50 @@
         </div>
         <i class="fa fa-bars" onclick="showMenu()" style="color:white"></i>
     </nav>
-    <h1>About US</h1>
+    <h1>CONTACT US</h1>
 </section>
-<!--------------abt us content---------->
-<section class="about-us">
+<!--------------contact us content---------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497699.9974055233!2d77.35073573584123!3d12.953847716514536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1680719990847!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
     <div class="row">
-        <div class="about-col">
-            <h1>We Live to dance</h1>
-            <p>The term Kathak is derived from the Vedic Sanskrit word Katha which means "story",<br> and Kathakar which means "the one who tells a story", or "to do with stories".<br> Wandering Kathakars communicated stories from the great epics and <br>ancient mythology through dance, songs and music.</p>
-            <a href="index.html" class="first-btn red-btn">EXPLORE NOW</a>
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Kanakapura main road, Navatratna garden</h5>
+                    <p>Bangalore 560062, Karnataka</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 9113905565</h5>
+                    <p>Monday to Friday, 10am to 6pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>shrishtiaccademy16@gmail.com</h5>
+                    <p>Get back to us through mail</p>
+                </span>
+            </div>
         </div>
-        <div class="about-col">
-            <img src="images/hitha.jpg">
+        <div class="contact-col">
+            <form action="formhandler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your Name" required>
+                <input type="email" name="email" placeholder="Enter your Email" required>
+                <input type="text" name="gharana" placeholder="Enter your Gharana" required>
+                <textarea rows="10" name="message" placeholder="Message"required></textarea>
+                <button type="submit" class="first-btn red-btn">Send Message</button>
+            </form>
+
         </div>
     </div>
-</section>
 
+</section>
     
 <!-----footer-------->
 <section class="footer">
